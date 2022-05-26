@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guica\\Desktop\\Banco de Dados\\FYI-Learning-Solutions\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj": {}
+    "C:\\Users\\42944379879.INFOSCS\\Desktop\\FYI-LEARNIG\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guica\\Desktop\\Banco de Dados\\FYI-Learning-Solutions\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj": {
+    "C:\\Users\\42944379879.INFOSCS\\Desktop\\FYI-LEARNIG\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guica\\Desktop\\Banco de Dados\\FYI-Learning-Solutions\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj",
+        "projectUniqueName": "C:\\Users\\42944379879.INFOSCS\\Desktop\\FYI-LEARNIG\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj",
         "projectName": "tcc_dbfyi",
-        "projectPath": "C:\\Users\\guica\\Desktop\\Banco de Dados\\FYI-Learning-Solutions\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj",
-        "packagesPath": "C:\\Users\\guica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guica\\Desktop\\Banco de Dados\\FYI-Learning-Solutions\\Back End\\tcc_dbfyi\\tcc_dbfyi\\obj\\",
+        "projectPath": "C:\\Users\\42944379879.INFOSCS\\Desktop\\FYI-LEARNIG\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj",
+        "packagesPath": "C:\\Users\\42944379879.INFOSCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\42944379879.INFOSCS\\Desktop\\FYI-LEARNIG\\Back End\\tcc_dbfyi\\tcc_dbfyi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\guica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\42944379879.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,12 +105,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -119,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

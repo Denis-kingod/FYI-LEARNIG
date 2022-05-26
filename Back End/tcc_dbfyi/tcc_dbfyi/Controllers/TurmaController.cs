@@ -23,7 +23,7 @@ namespace tcc_dbfyi.Controllers
             _turmaRepository = new TurmaRepository();
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         // GET: api/TurmasControllers
         [HttpGet]
         public IActionResult Get()
@@ -39,7 +39,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         // GET: api/TurmasControllers/5
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
@@ -55,7 +55,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+       // [Authorize(Roles = "1,2")]
         [HttpGet("Curso{idc}")]
         public IActionResult GetByIdc(int idCategoria)
         {
@@ -70,7 +70,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         // PUT: api/TurmasControllers/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -89,7 +89,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         // POST: api/TurmasControllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
@@ -108,7 +108,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         // DELETE: api/TurmasControllers/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)

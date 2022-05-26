@@ -24,7 +24,7 @@ namespace tcc_dbfyi.Controllers
             _inscricaoRepository = new InscricaoRepository();
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         // GET: api/InscricoesControllers
         [HttpGet]
         public IActionResult Get()
@@ -40,7 +40,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         // GET: api/InscricoesControllers/5
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
@@ -56,7 +56,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         [HttpGet("Turma{idt}")]
         public IActionResult GetByIdt(int id)
         {
@@ -70,7 +70,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "3")]
+        //[Authorize(Roles = "3")]
         [HttpGet("proprias")]
         public IActionResult ListarProprias()
         {
@@ -94,7 +94,7 @@ namespace tcc_dbfyi.Controllers
 
         // PUT: api/InscricoesControllers/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         [HttpPut("{id}")]
         public IActionResult Put(int id, Inscricao inscricaoAtualizada)
         {
@@ -111,7 +111,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         // POST: api/InscricoesControllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
@@ -131,7 +131,7 @@ namespace tcc_dbfyi.Controllers
         }
 
         // DELETE: api/InscricoesControllers/5
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
