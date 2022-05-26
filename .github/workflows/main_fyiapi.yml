@@ -54,4 +54,4 @@ jobs:
           app-name: 'FYIAPI'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0AA681C0E6D3437C9183EB5D88DDBB79 }}
-          package: 'Build'
+          package: 'build'
