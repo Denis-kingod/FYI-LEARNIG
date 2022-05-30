@@ -9576,19 +9576,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\42944379879.INFOSCS\\.nuget\\packages\\": {}
+    "C:\\Users\\48345049800.INFOSCS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\42944379879.INFOSCS\\Desktop\\FYI-LEARNIG\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj",
+      "projectUniqueName": "C:\\Users\\48345049800.INFOSCS\\Desktop\\FYI-LEARNIG\\backend\\tcc_dbfyi.csproj",
       "projectName": "tcc_dbfyi",
-      "projectPath": "C:\\Users\\42944379879.INFOSCS\\Desktop\\FYI-LEARNIG\\Back End\\tcc_dbfyi\\tcc_dbfyi\\tcc_dbfyi.csproj",
-      "packagesPath": "C:\\Users\\42944379879.INFOSCS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\42944379879.INFOSCS\\Desktop\\FYI-LEARNIG\\Back End\\tcc_dbfyi\\tcc_dbfyi\\obj\\",
+      "projectPath": "C:\\Users\\48345049800.INFOSCS\\Desktop\\FYI-LEARNIG\\backend\\tcc_dbfyi.csproj",
+      "packagesPath": "C:\\Users\\48345049800.INFOSCS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\48345049800.INFOSCS\\Desktop\\FYI-LEARNIG\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\42944379879.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\48345049800.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9687,7 +9687,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
