@@ -37,7 +37,11 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        /// <summary>
+        /// /[Authorize(Roles = "1")]
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // GET: api/CursosControllers/5
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
@@ -66,7 +70,7 @@ namespace tcc_dbfyi.Controllers
         }
 
 
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult Post(Curso novoCurso)
         {
@@ -82,7 +86,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+       // [Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Curso CursoAtualizado)
         {
@@ -98,7 +102,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         // DELETE: api/CursosControllers/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)

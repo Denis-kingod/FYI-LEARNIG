@@ -37,7 +37,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         // GET: api/CategoriumsControllers/5
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
@@ -65,7 +65,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult Post(Categorium novaCategoria)
         {
@@ -83,7 +83,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Categorium CategoriaAtualizada)
         {
@@ -99,7 +99,7 @@ namespace tcc_dbfyi.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         // DELETE: api/CategoriumsControllers/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)

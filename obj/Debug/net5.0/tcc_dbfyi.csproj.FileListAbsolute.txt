@@ -304,7 +304,6 @@ C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\bin\Debug\net5.0\tcc_dbfyi.deps
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\bin\Debug\net5.0\tcc_dbfyi.runtimeconfig.json
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\bin\Debug\net5.0\tcc_dbfyi.runtimeconfig.dev.json
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\bin\Debug\net5.0\tcc_dbfyi.dll
-C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\bin\Debug\net5.0\ref\tcc_dbfyi.dll
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\bin\Debug\net5.0\tcc_dbfyi.pdb
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\bin\Debug\net5.0\BCrypt.Net-Next.dll
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\bin\Debug\net5.0\Humanizer.dll
@@ -440,7 +439,6 @@ C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\tcc_dbfyi.cspr
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\tcc_dbfyi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\tcc_dbfyi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\staticwebassets\tcc_dbfyi.StaticWebAssets.Manifest.cache
-C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\staticwebassets\tcc_dbfyi.StaticWebAssets.xml
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\scopedcss\bundle\tcc_dbfyi.styles.css
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\tcc_dbfyi.RazorTargetAssemblyInfo.cache
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\tcc_dbfyi.csproj.CopyComplete
@@ -448,3 +446,5 @@ C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\tcc_dbfyi.dll
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\ref\tcc_dbfyi.dll
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\tcc_dbfyi.pdb
 C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\tcc_dbfyi.genruntimeconfig.cache
+C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\bin\Debug\net5.0\tcc_dbfyi.StaticWebAssets.xml
+C:\Users\48345049800.INFOSCS\Desktop\FYI-LEARNIG\obj\Debug\net5.0\refint\tcc_dbfyi.dll
