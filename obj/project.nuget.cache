@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0mQXJDYN+g25rEtBBnxJEoWOHXBkihdq9RASeG+W9joPPisfAHkGKHRdZTecmeHzeR/EBUaIlRqWpqE629SN/Q==",
+  "dgSpecHash": "iPgneFWjl/URTlKv1d5TxSycV+IU1VZn/cvSW5Ii3mggwI8Tqsd1bakFAcv/jAd4bnW0140PBoP2QeNM0UjzUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\48345049800.INFOSCS\\Desktop\\FYI-LEARNIG\\backend\\tcc_dbfyi.csproj",
+  "projectFilePath": "C:\\Users\\48345049800.INFOSCS\\Desktop\\FYI-LEARNIG\\tcc_dbfyi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48345049800.INFOSCS\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\48345049800.INFOSCS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
