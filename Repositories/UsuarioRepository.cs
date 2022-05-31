@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using tcc_dbfyi.Context;
 using tcc_dbfyi.Domains;
 using tcc_dbfyi.Interfaces;
@@ -67,33 +65,31 @@ namespace tcc_dbfyi.Repositories
 
         public Usuario Login(string email, string senha)
         {
-            var user = ctx.Usuarios.FirstOrDefault(u => u.Email == email);
+            var usuario = ctx.Usuarios.FirstOrDefault(u => u.Email == email);
+            var usuarin = ctx.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
 
-
-            if (user != null)
+            if (usuarin != null)
             {
-                if (Criptografia.Validate(user.Senha) == true)
+                if (usuarin.Senha.Length != 60)
                 {
-                    bool IsEncrypted = Criptografia.Comparar(senha, user.Senha);
-                    if (IsEncrypted)
-                        return user;
-                }
-                else
-                {
-                    EncryptPassword(user);
-                    bool IsEncrypted = Criptografia.Comparar(senha, user.Senha);
-                    if (IsEncrypted)
-                        return user;
+                    usuarin.Senha = Criptografia.ConstruirHash(senha);
+
+                    ctx.Usuarios.Update(usuarin);
+                    ctx.SaveChanges();
+
+                    return usuarin;
                 }
             }
 
+            if (usuario != null)
+            {
+                bool comparado = Criptografia.Verificar(senha, usuario.Senha);
+                if (comparado)
+                {
+                    return usuario;
+                }
+            }
             return null;
-        }
-        public async void EncryptPassword(Usuario _user)
-        {
-            _user.Senha = Criptografia.GerarHash(_user.Senha);
-            ctx.Usuarios.Update(_user);
-            await ctx.SaveChangesAsync();
         }
     }
 }

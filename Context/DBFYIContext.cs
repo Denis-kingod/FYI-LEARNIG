@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 using tcc_dbfyi.Domains;
 
 #nullable disable
@@ -29,10 +29,14 @@ namespace tcc_dbfyi.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
+                    IConfigurationRoot configuration = new ConfigurationBuilder()
+                     .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                     .AddJsonFile("appsettings.json")
+                     .Build();
 
-                optionsBuilder.UseSqlServer("Data Source =fyilearning2.database.windows.net; initial catalog = DBFYI; user Id = administrador; pwd = FYIlearningsolutions@5;");
+                    optionsBuilder.UseSqlServer(configuration.GetConnectionString("DBFYI"));
+                }
             }
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

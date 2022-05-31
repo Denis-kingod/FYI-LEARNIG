@@ -1,12 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using tcc_dbfyi.Domains;
 using tcc_dbfyi.Interfaces;
 using tcc_dbfyi.Repositories;
+using tcc_dbfyi.Utils;
 
 namespace tcc_dbfyi.Controllers
 {
@@ -57,6 +56,21 @@ namespace tcc_dbfyi.Controllers
                 return BadRequest(ex);
             }
         }
+
+        //[Authorize(Roles = "1")]
+        [HttpGet("Email")]
+        public IActionResult GetByEmail(string Email)
+        {
+            try
+            {
+                return Ok(Usuario.BuscarPorEmail(Email));
+            }
+            catch (Exception erro)
+            {
+                return BadRequest(erro);
+            }
+        }
+
         /// <summary>
         /// Cadastra um novo Usuario
         /// </summary>
@@ -64,11 +78,13 @@ namespace tcc_dbfyi.Controllers
         /// <returns></returns>
         //[Authorize(Roles = "1")]
         [HttpPost]
-        public IActionResult Cadastro(Usuario NovoUser)
+        public IActionResult Cadastro(Usuario novoUsuario)
         {
             try
             {
-                Usuario.Cadastrar(NovoUser);
+                novoUsuario.Senha = Criptografia.ConstruirHash(novoUsuario.Senha);
+
+                Usuario.Cadastrar(novoUsuario);
 
                 return Ok(Usuario.Listar().Last());
             }
@@ -77,6 +93,7 @@ namespace tcc_dbfyi.Controllers
                 return BadRequest(ex);
             }
         }
+        
         /// <summary>
         /// Deleta um usuario
         /// </summary>

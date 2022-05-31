@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using tcc_dbfyi.Context;
 using tcc_dbfyi.Domains;
 using tcc_dbfyi.Interfaces;
